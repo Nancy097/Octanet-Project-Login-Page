@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    padding: 0px 100px;
+    line-height: 80px;
+    background-image: linear-gradient(#033747, #012733);
+
+}
+
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    float: right;
+
+    }
+
+nav li{
+
+        display: inline-block;
+        list-style: none;
+    }
+
+nav .links a{
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 0px 30px;
+        color: white;
+        text-decoration: none;
+        
+
+       
+    }
+
+nav li a:hover{
+        color: orangered;
+        transition: all 0.4 ease 0s;
+    }
+
+.content img{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .content{
+        border: .1px solid pink;
+        border-radius: 5px;
+        text-align: center;
+        background: url(img1.jpg);
+        width: 100%; 
+         height: 1000px;
+        background-size: cover;
+        background-position: center;
+        padding: 25px;
+    }
+
+    /* here it is */
+    .content .login  a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+
+        
+    }
+    .content .login .forget{
+
+        font-weight: 700;
+        color: rgb(168, 73, 5);
+    }
+
+    .content .login  a:hover{
+        color: orangered;
+        font-weight: 600;
+        
+
+        
+    }
+
+    .content .login div{
+        margin: 10px;
+    }
+
+    .content .login div p{
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+    }
+
+
+    button{
+        background-color: blue;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-left: 50px;
+
+    } 
+
+    
+
+    button:hover{
+        background-color: rgb(3, 3, 142);
+        color: azure;
+        font-weight: 500;
+    } 
+    .content .login2 div img {
+        height: 20px;
+        width: 20px;
+        padding-right: 3px;
+        margin-left: 5px;
+       
+    }
+    .content .login2 div{
+        color: azure;
+        font-weight: 700;
+        text-transform: uppercase;
+        
+        margin: 10px;
+        padding: 2px;
+    }
+    .content .login2 div:hover{
+        color: aqua;
+    }
+
+    .content .login a{
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px; 
+
+    }
+    #or{
+        text-align: center;
+        font-weight: 900;
+        color: rgb(195, 87, 48);
+    } 
+
+    
+
+    .content .login .login2{
+        display: block;
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
